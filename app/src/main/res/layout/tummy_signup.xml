@@ -22,7 +22,7 @@
         android:layout_gravity="right" />
 
     <TextView
-        android:id="@+id/password"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create New Password"/>
@@ -33,7 +33,32 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:id="@+id/password"
-        android:layout_gravity="right" />
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/Phonenumber"
+         />
+
+    <Spinner
+        android:id="@+id/signupsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/type"
+        />
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"/>
+
 
 
 
