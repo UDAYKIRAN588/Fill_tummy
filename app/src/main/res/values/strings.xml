@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Fill_tummy</string>
+    <string-array name="type">
+        <item>Publisher</item>
+        <item>User</item>
+    </string-array>
 </resources>
+
