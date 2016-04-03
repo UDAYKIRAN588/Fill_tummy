@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/location"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Location"
+        android:ems="10"
+        android:id="@+id/locationeditText"
+        android:layout_alignTop="@+id/location"
+        android:layout_toRightOf="@+id/location"
+        android:layout_toEndOf="@+id/location"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:id="@+id/distance"
+        android:layout_below="@+id/locationeditText"
+        android:layout_alignLeft="@+id/location"
+        android:layout_alignStart="@+id/location"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foodtype"
+        android:id="@+id/foodtype"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/distance"
+        android:layout_alignStart="@+id/distance" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerfood"
+        android:layout_centerVertical="true"
+        android:spinnerMode="dropdown"
+        android:layout_alignLeft="@+id/locationeditText"
+        android:layout_alignStart="@+id/locationeditText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:id="@+id/price"
+        android:layout_below="@+id/spinnerfood"
+        android:layout_alignLeft="@+id/foodtype"
+        android:layout_alignStart="@+id/foodtype"
+        android:layout_marginTop="31dp"
+        android:layout_alignRight="@+id/foodtype"
+        android:layout_alignEnd="@+id/foodtype" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free"
+        android:id="@+id/radioButton"
+        android:layout_alignTop="@+id/price"
+        android:layout_alignLeft="@+id/spinnerfood"
+        android:layout_alignStart="@+id/spinnerfood"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paid"
+        android:id="@+id/radioButton2"
+        android:checked="false"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_toRightOf="@+id/radioButton"
+        android:layout_toEndOf="@+id/radioButton"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:layout_alignTop="@+id/distance"
+        android:layout_alignLeft="@+id/locationeditText"
+        android:layout_alignStart="@+id/locationeditText"
+        android:layout_above="@+id/spinnerfood"
+        android:layout_alignRight="@+id/locationeditText"
+        android:layout_alignEnd="@+id/locationeditText"
+        android:orientation="horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/button"
+        android:layout_below="@+id/radioButton"
+        android:layout_toRightOf="@+id/distance"
+        android:layout_toEndOf="@+id/distance"
+        android:layout_marginTop="37dp" />
+
+</RelativeLayout>
