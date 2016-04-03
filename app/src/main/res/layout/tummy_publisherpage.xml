@@ -11,51 +11,51 @@
         android:hint="Name"
         />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:id="@+id/Phonenumber"
-        android:hint="Phone Number"
-        />
-   < EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:inputType="textPostalAddress"
-    android:id="@+id/AddressStreet"
-    android:hint="address"
-    />
-    < EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPostalAddress"
-        android:id="@+id/AddressCity"
-        android:hint="City"
-        />
-    < EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPostalAddress"
-        android:id="@+id/AddressState"
-        android:hint="State"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPostalAddress"
-        android:id="@+id/addresszip"
-        android:hint="zip"
-        />
-    <!--<ImageView-->
-    <!--android:id="@+id/upload"-->
-        <!--android:src=""-->
+    <!--<EditText-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="number"-->
+        <!--android:id="@+id/Phonenumber"-->
+        <!--android:hint="Phone Number"-->
         <!--/>-->
-    <Button
-        android:id="@+id/submitContent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="submit"/>
+   <!--&lt;!&ndash;< EditText&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:inputType="textPostalAddress"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/AddressStreet"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:hint="address"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--< EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPostalAddress"-->
+        <!--android:id="@+id/AddressCity"-->
+        <!--android:hint="City"-->
+        <!--/>-->
+    <!--< EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPostalAddress"-->
+        <!--android:id="@+id/AddressState"-->
+        <!--android:hint="State"-->
+        <!--/>-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPostalAddress"-->
+        <!--android:id="@+id/addresszip"-->
+        <!--android:hint="zip"-->
+        <!--/>-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/upload"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src=""&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--<Button-->
+        <!--android:id="@+id/submitContent"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="submit"/>-->
 
 </LinearLayout>

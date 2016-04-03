@@ -7,11 +7,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fill Tummy"
-        android:layout_gravity="center_vertical"/>
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="login"/>
+        android:text="login"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +22,7 @@
 
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/Loginus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -34,27 +36,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/password"
+        android:id="@+id/Loginpassword"
         android:layout_gravity="right" />
 
 
-    <Button
-        android:id="@+id/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Submit"/>
+
     <Spinner
-        android:id="@+id/sp"
+        android:id="@+id/Loginsp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:entries="@array/type"
         />
     <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submit"/>
+    <Button
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign up"
+        android:onClick="signUp"
         />
 
 
